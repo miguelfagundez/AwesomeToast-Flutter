@@ -1,3 +1,9 @@
+## [0.2.0] - ToastContext added
+
+* ToastContext on BuildContext
+* Overlay State/Entry added
+* New constats values
+
 ## [0.1.2] - Const class added
 
 * Params
