@@ -1,3 +1,7 @@
+## [0.1.1] - MIT License
+
+Included MIT License
+
 ## [0.1.0] - Basic toast widget
 
 Included basic toast widget
