@@ -1,3 +1,8 @@
-## 0.0.1
+## [0.0.2] - Add example project
 
-* TODO: Describe initial release.
+Create Flutter application
+
+## [0.0.1] - Package created
+
+init commit
+
