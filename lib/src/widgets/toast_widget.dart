@@ -31,7 +31,7 @@ class _ToastWidgetState extends State<ToastWidget>
       duration: params.transition,
     )..forward();
 
-    final startFadeOutAt = params.duration - params.transition;
+    final startFadeOutAt = params.duration! - params.transition!;
     Future.delayed(startFadeOutAt, opacity.reverse);
   }
 
@@ -48,7 +48,7 @@ class _ToastWidgetState extends State<ToastWidget>
     return FadeTransition(
       opacity: opacity,
       child: Align(
-        alignment: params.alignment,
+        alignment: params.alignment!,
         child: Container(
           decoration: BoxDecoration(
             color: params.backgroundColor,
