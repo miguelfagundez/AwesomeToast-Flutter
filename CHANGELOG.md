@@ -1,3 +1,8 @@
+## [0.2.1] - Project homepage
+
+* Project homepage added
+* Minor Dart code fix
+
 ## [0.2.0] - ToastContext added
 
 * ToastContext on BuildContext
