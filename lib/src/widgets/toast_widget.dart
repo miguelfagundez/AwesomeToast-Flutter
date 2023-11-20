@@ -1,3 +1,4 @@
+import 'package:awesome_toast/src/awesome_toast_const.dart';
 import 'package:awesome_toast/src/params/awesome_toast_params.dart';
 import 'package:flutter/material.dart';
 
@@ -54,13 +55,13 @@ class _ToastWidgetState extends State<ToastWidget>
             borderRadius: params.borderRadius,
           ),
           margin: EdgeInsets.only(
-            left: 16.0,
-            right: 16.0,
+            left: AwesomeToastConst.large,
+            right: AwesomeToastConst.large,
             bottom: MediaQuery.of(context).size.height * .125,
           ),
           padding: const EdgeInsets.symmetric(
-            horizontal: 24.0,
-            vertical: 16.0,
+            horizontal: AwesomeToastConst.xlarge,
+            vertical: AwesomeToastConst.large,
           ),
           child: SizedBox(
             width: params.toastSize,
@@ -72,7 +73,7 @@ class _ToastWidgetState extends State<ToastWidget>
                   color: Colors.white,
                 ),
                 const SizedBox(
-                  width: 8.0,
+                  width: AwesomeToastConst.base,
                 ),
                 Expanded(
                   child: DefaultTextStyle(

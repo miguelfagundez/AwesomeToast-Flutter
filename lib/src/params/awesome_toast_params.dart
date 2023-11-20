@@ -1,15 +1,17 @@
+import 'package:awesome_toast/src/awesome_toast_const.dart';
 import 'package:flutter/material.dart';
 
 class AwesomeToastParams {
   AwesomeToastParams({
     required this.textStyle,
-    this.duration = const Duration(seconds: 3),
-    this.transition = const Duration(milliseconds: 250),
+    this.duration = const Duration(seconds: AwesomeToastConst.toastSeconds),
+    this.transition =
+        const Duration(milliseconds: AwesomeToastConst.toastMilliseconds),
     this.backgroundColor,
     this.borderRadius,
     this.alignment = Alignment.bottomCenter,
     this.icon,
-    this.toastSize = 300.0,
+    this.toastSize = AwesomeToastConst.toastSize,
     this.maxLines,
   });
 
