@@ -20,8 +20,8 @@ extension ToastContext on BuildContext {
     BorderRadius? borderRadius = const BorderRadius.all(Radius.circular(
       AwesomeToastConst.toastBorderRadius,
     )),
-    AlignmentGeometry alignment = Alignment.topCenter,
-    IconData? icon = Icons.check_circle,
+    AlignmentGeometry alignment = Alignment.bottomCenter,
+    IconData? icon,
     double? toastSize = AwesomeToastConst.toastSize,
     double paddingTop = AwesomeToastConst.toastPaddingTop,
     int? maxLines = AwesomeToastConst.toastMaxlines,
@@ -40,6 +40,7 @@ extension ToastContext on BuildContext {
           params: AwesomeToastParams(
             textStyle: style,
             duration: duration,
+            transition: transition,
             backgroundColor: backgroundColor,
             borderRadius: borderRadius,
             alignment: alignment,

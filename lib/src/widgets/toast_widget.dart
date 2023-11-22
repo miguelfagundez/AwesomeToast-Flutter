@@ -75,7 +75,7 @@ class _ToastWidgetState extends State<ToastWidget>
                 const SizedBox(
                   width: AwesomeToastConst.base,
                 ),
-                Expanded(
+                Flexible(
                   child: DefaultTextStyle(
                     style: params.textStyle,
                     child: Text(
@@ -84,7 +84,7 @@ class _ToastWidgetState extends State<ToastWidget>
                       maxLines: params.maxLines,
                     ),
                   ),
-                )
+                ),
               ],
             ),
           ),
