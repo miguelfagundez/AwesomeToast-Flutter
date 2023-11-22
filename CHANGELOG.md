@@ -1,3 +1,8 @@
+## [0.2.2] - Testing code included
+
+* Testing code
+* Minor Dart code fix in transition widget
+
 ## [0.2.1] - Project homepage
 
 * Project homepage added
