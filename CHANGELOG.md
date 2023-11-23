@@ -1,3 +1,8 @@
+## [0.2.3] - Minor fixes and icon null validation
+
+* Icon null validation included
+* Text center aligment included
+
 ## [0.2.2] - Testing code included
 
 * Testing code
