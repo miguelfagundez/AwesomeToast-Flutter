@@ -89,9 +89,8 @@ class _MyHomePageState extends State<MyHomePage> {
             borderRadius: const BorderRadius.all(
               Radius.circular(10),
             ),
-            icon: Icons.check_circle,
+            //icon: Icons.check_circle,
           );
-          //setState(() {});
         },
         tooltip: 'Show toast',
         child: const Icon(Icons.slideshow),

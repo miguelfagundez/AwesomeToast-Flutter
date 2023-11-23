@@ -68,13 +68,15 @@ class _ToastWidgetState extends State<ToastWidget>
             child: Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Icon(
-                  params.icon,
-                  color: Colors.white,
-                ),
-                const SizedBox(
-                  width: AwesomeToastConst.base,
-                ),
+                if (params.icon != null)
+                  Icon(
+                    params.icon,
+                    color: Colors.white,
+                  ),
+                if (params.icon != null)
+                  const SizedBox(
+                    width: AwesomeToastConst.base,
+                  ),
                 Flexible(
                   child: DefaultTextStyle(
                     style: params.textStyle,
@@ -82,6 +84,7 @@ class _ToastWidgetState extends State<ToastWidget>
                       widget.message,
                       overflow: TextOverflow.ellipsis,
                       maxLines: params.maxLines,
+                      textAlign: TextAlign.center,
                     ),
                   ),
                 ),
